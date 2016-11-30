@@ -1,3 +1,6 @@
+
+git config --global user.name "paragbharne"
+git config --global user.email "pari.bharne@gmail.com"
 git add .
 
 echo 'Enter the commit message:'

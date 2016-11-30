@@ -1,0 +1,12 @@
+# !/bin/bash
+git checkout master
+#cd /root/auto-push
+git add .
+
+read commitMessage
+git commmit -aq $"commitMEssage"
+
+git push origin
+
+read
+
