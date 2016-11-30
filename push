@@ -1,0 +1,17 @@
+#!/bin/sh
+###########################
+
+# switch to branch you want to use
+git checkout
+# add all added/modified files
+git config --global user.name "paragbharne"
+git config --global user.email "pari.bharne@gmail.com"
+git add .
+# commit changes
+read commitMessage
+git commit -am "$commitMessage"
+# push to git remote repository
+git push
+###########################
+echo Press Enter...
+read
